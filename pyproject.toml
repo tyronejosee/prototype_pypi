@@ -1,0 +1,19 @@
+[project]
+name = "utils_funcs"
+version = "0.1.0"
+authors = [{ name = "Tyrone José", email = "alt.tyronejose@gmail.com" }]
+description = "A collection of reusable functions."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "setuptools (>=75.8.0,<76.0.0)",
+    "pytest (>=8.3.4,<9.0.0)"
+]
+
+[tool.setuptools]
+packages = ["utils_funcs"]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
